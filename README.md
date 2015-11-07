@@ -37,7 +37,7 @@ Option 2: Ruin
 
 ```JSON
 {
-    "fuckPlayers" : null,
+    "partners" : null,
     "ruinPlayer" : "Jason"
 }
 ```
