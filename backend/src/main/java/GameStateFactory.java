@@ -6,7 +6,7 @@ public class GameStateFactory extends BasicGameStateFactory {
     @Override
     public BasicGameState createState() {
         GameState gameState =  new GameState();
-        gameState.transitionPhase(new PassCardPhase());
+        gameState.transitionPhase(new SelectCardPhase());
         return gameState;
     }
 }

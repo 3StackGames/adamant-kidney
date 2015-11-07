@@ -2,9 +2,9 @@ import com.three_stack.digital_compass.backend.BasicAction;
 
 import java.util.List;
 
-public class RevealAction extends BasicAction {
+public class HookupAction extends BasicAction {
     private String cardId;
-    private List<String> fuckPlayers;
+    private List<String> partners;
     private String ruinPlayer;
 
     public String getCardId() {
@@ -15,12 +15,12 @@ public class RevealAction extends BasicAction {
         this.cardId = cardId;
     }
 
-    public List<String> getFuckPlayers() {
-        return fuckPlayers;
+    public List<String> getPartners() {
+        return partners;
     }
 
-    public void setFuckPlayers(List<String> fuckPlayers) {
-        this.fuckPlayers = fuckPlayers;
+    public void setPartners(List<String> partners) {
+        this.partners = partners;
     }
 
     public String getRuinPlayer() {
