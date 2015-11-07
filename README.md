@@ -13,6 +13,10 @@ Each player selects which card they want to send to who.
 }
 ```
 
+## [Move Card Phase](docs/move-card-phase.md)
+
+Players receive their new cards.
+
 ## [Hookup Phase](docs/hookup-phase.md)
 
 Players select if they want to hook-up, and with who, or if they want to ruin someone else's hook-up.
@@ -41,12 +45,6 @@ Option 2: Ruin
 ## [RevealPhase](docs/reveal-phase.md)
 
 Reveal who succeeded last night and who went home disappointed.
-
-```JSON
-{
-    "moveOn": true
-}
-```
 
 ## [EndPhase](docs/end-phase.md)
 
